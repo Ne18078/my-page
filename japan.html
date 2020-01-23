@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>私の自己紹介</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+      <div class="title-arena">
+        <h1 class="page-title">グェン　ティェン　ダット の自己紹介</h1>
+      </div>
+      <nav>
+          <ul>
+              <li><a class="topmenu" href="index.html">私について</a></li>
+              <li><a class="topmenu" href="country.html">出身国について</a></li>
+              <li><a class="topmenu current" href="japan.html">私と日本</a></li>
+          </ul>
+      </nav>
+  </header>
+  <div id="container">
+      <div id="main">
+<img class="japanimg" src="image/slide-1.jpg" alt="">
+   <script type="text/javascript">
+  window.onload = function(){
+    setTimeout("switch_Image()", 3000);
+  }
+  var current = 1;
+  var num_image = 6;
+  function switch_Image(){
+      current++;
+      document.images['image'].src ='img/slide-' + current + '.jpg';
+     if(current < num_image){
+       setTimeout("switch_Image()", 3000);
+     }else if(current == num_image){
+       current = 0;
+       setTimeout("switch_Image()", 3000);
+     }
+ }
+</script>
+ <h2 class="title2">日本に来た理由</h2>
+       <p class="mytxt">
+      私は日本と日本が先進国であることを愛していました。日本人は科学的にそして効果的に
+      働いています。 これは私が日本人の仕事の仕方を学ぶために日本に留学しに行きたいと思
+      っています。 私が日本で学んだ知識は、間違いなく将来のビジネスに大いに役立つでしょ
+      う。 。
+       </p>
+
+       <div class="kn"></div>
+
+        <h2 class="title2">日本の好きなところ</h2>
+
+        <p class="mytxt">
+  (1)先進国:
+  日本は、生活水準と快適さの高さで世界第3位の経済大国です。日本は安全で清潔な国として
+  長い間知られています。医療サービスは非常に安くて効果的です。公共施設はとても便利です。
+  日本人はおもてなし、礼儀正しく、そして礼儀正しいことで知られています。
+  桜の土地はあなたを美しい自然の風景に失望させません。日本にはたくさんの「一万人」の料理
+  があり、典型的には寿司や麺類があります。失業率は低いので、  日本は「自然で好意的で調和
+  のとれた人々」のある国です。
+
+     
+
+  (2)  求人情報を開く:
+
+    キャリアを広げるために多くの人が留学することを選択します。日本はあなたがキャリアを
+    伸ばすのに最適な場所です。特に今日の統合時代に日本が経済大国になって以来、
+    ますます多くの外国企業が日本で潜在的な留学生を探しています。
+    学生はまた日本人から優秀な働き方を練習することができます。この重要な基準は、
+    日本の雇用主による国際的な候補者の厳格な「選考」プロセスに適用されます。ですから、
+    日本で勉強したときに身に付けたスキルは、あなたが世界の扉を広げるのに役立つ貴重な経験
+    になるでしょう。
+     </p>
+    
+
+      </div>
+ 
+
+
+
+      <div id="sub">
+      <h3 class="subh3">出身国に関するリンク</h3>
+      <ul>
+        <li><a href="https://www.paradisecruise.com/vi/halong-bay" target="_blank">HA LONG</a></li>
+        <li><a href="http://www.vietnam-guide.com/hai-phong/" target="_blank">HAi PHONG</a></li>
+        <li><a href="https://eva.vn/bep-eva/nau-banh-da-cua-dung-chat-hai-phong-c162a147938.html" target="_blank">BANH DA CUA</a></li>
+        <li><a href="https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%B3%E3%83%A9%E3%83%BC" target="_blank">NON LA</a></li>
+        <li><a href="http://gocnhosantruong.com/khong-gian-rieng/2305-net-dep-van-hoa-ao-dai-truyen-thong-cua-phu-nu-viet-nam" target="_blank">AO DAI</a></li>
+      </ul>
+      <h3 class="subh3">趣味に関するリンク</h3>
+      <ul>
+
+
+        <li><a href="http://pubg.dmm.com/" target="_blank">ゲーム</a></li>
+        <li><a href="https://travel.com.vn/du-lich-viet-nam.aspx" target="_blank">旅行</a></li>
+
+      </ul>
+    </div>
+    <footer>
+        Copyright &copy; 09-01-2020 <span class="name">NGUYEN TIEN DAT</span> All rights reserved.
+      </footer>
+</div>
+</body>
+</html>
